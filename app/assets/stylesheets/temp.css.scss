@@ -1,0 +1,10 @@
+$red: #faa;
+@mixin red-color {
+	color: $red;
+}
+h1 {
+	@include red-color;
+	span {
+		color: green;
+	}
+}

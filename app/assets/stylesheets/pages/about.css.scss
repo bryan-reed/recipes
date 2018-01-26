@@ -1,0 +1,16 @@
+
+h1 {
+	@include red-color;
+	span {
+		color: green;
+	}
+	&:hover {
+		text-decoration: underline;
+	}
+}
+.tester{
+	color: red;
+	&__item {
+		color: green;
+	}
+}
